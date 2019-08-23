@@ -42,5 +42,5 @@ def find_the_cheese(array)# code an argument here
   counter = 0 
   while array[counter] do 
     return cheese_types[counter] if array.include?(cheese_types[counter])
-    
+    counter += 1
 end
